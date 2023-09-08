@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Impact', sans-serif;
+  src: url(./fonts/ofont.ru_Impact.ttf) format('truetype');
+}
+
+
 ul {
   list-style: none;
 }
@@ -24,13 +30,17 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 1220px;
+  max-width: 1320px;
 }
 
 /* ?======================================= Header ======================================== */
 
 .header {
   padding-top: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: var(--gradient-light, linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0.00) 100%));
 }
 
 .nav {
@@ -44,7 +54,72 @@ body {
   padding-top: 25px;
 }
 
+.menu-left {
+  padding-left: 25px;
+}
+
+.menu-right {
+  padding-right: 80px;
+}
+
 .menu-link {
   color: #363636;
   font-size: 16px;
+}
+
+/* ?======================================= Section 1 ===================================== */
+
+.promo {
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.promo__inner {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.title {
+  font-family: 'Kanit', sans-serif;
+  font-size: 76px;
+  font-weight: 600;
+  /* font-style: bold; */
+  padding-top: 5px;
+  letter-spacing: 0.08rem; 
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  border-bottom: 1px solid #040404;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.subtitle span {
+  display: block;
+  font-size: 34px;
+  color: #9F6B08;
+  padding: 10px 0;
+
+}
+
+.promo__text {
+  font-size: 16px;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.promo__arrow {
+  margin-top: auto;
+  margin-bottom: 30px;
+  align-self: center;
 }
