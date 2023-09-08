@@ -27,13 +27,15 @@ body {
   font-weight: 400;
 }
 
-.container {
+
+
+/* ?======================================= Header ======================================== */
+
+.big-container {
   margin: 0 auto;
   padding: 0 10px;
   max-width: 1320px;
 }
-
-/* ?======================================= Header ======================================== */
 
 .header {
   padding-top: 25px;
@@ -122,4 +124,12 @@ body {
   margin-top: auto;
   margin-bottom: 30px;
   align-self: center;
+}
+
+/* ?======================================== Section 2 ==================================== */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 920px;
 }
