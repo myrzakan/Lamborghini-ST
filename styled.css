@@ -13,6 +13,38 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #040404;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
 .container {
   margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1220px;
+}
+
+/* ?======================================= Header ======================================== */
+
+.header {
+  padding-top: 25px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list {
+  display: flex;
+  gap: 0 40px;
+  padding-top: 25px;
+}
+
+.menu-link {
+  color: #363636;
+  font-size: 16px;
 }
