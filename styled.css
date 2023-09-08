@@ -27,6 +27,9 @@ body {
   font-weight: 400;
 }
 
+/* img {
+  object-fit: cover;
+} */
 
 
 /* ?======================================= Header ======================================== */
@@ -203,4 +206,36 @@ body {
 
 .info__table td {
   padding-bottom: 20px;
+}
+
+
+/* ?=================================== Section 3 ========================================= */
+
+.track {
+  /* padding-bottom: 90px; */
+  background-image: url(./img/track-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.track__title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  font-weight: 30;
+}
+
+.track__text {
+  max-width: 435px;
+}
+
+.track__inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.track__img { 
+  margin: auto auto 90px auto;
 }
