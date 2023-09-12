@@ -243,131 +243,215 @@ body {
 
 /* ? ==================================== Section 4 ======================================== */
 
-  .evo {
-    font-size: 14px;
-    margin-bottom: 100px;
-  }
+.evo {
+  font-size: 14px;
+  margin-bottom: 100px;
+}
 
-  .evo-black__inner {
-    position: relative;
-  }
+.evo-black__inner {
+  position: relative;
+}
 
-  .evo-black__inner::before {
-    content: '';
-    position: absolute;
-    background-image: url(./img/dec-1.svg);
-    width: 185px;
-    height: 213px;
-    top: 210px;
-    left: -130px;
-  }
+.evo-black__inner::before {
+  content: '';
+  position: absolute;
+  background-image: url(./img/dec-1.svg);
+  width: 185px;
+  height: 213px;
+  top: 210px;
+  left: -130px;
+}
 
-  .evo-black__inner::after {
-    content: '';
-    position: absolute;
-    background-image: url(./img/dec-2.svg);
-    width: 498px;
-    height: 572px;
-    top: 291px;
-    left: -40px;
-  }
+.evo-black__inner::after {
+  content: '';
+  position: absolute;
+  background-image: url(./img/dec-2.svg);
+  width: 498px;
+  height: 572px;
+  top: 291px;
+  left: -40px;
+}
+
+.evo-black {
+  background-color: #363636;
+  padding: 100px 0 50px;
+  color: #fff;
+}
+
+.evo-black__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.evo-black__title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 300;
+  padding-right: 50px;
+}
+
+.evo_black__infobox {
+  flex-basis: 437px;
+}
+
+.evo-black__text {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.evo-black__img {
+  display: block;
+  margin: 170px auto 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.evo__descr-list {
+  display: flex;
+  justify-content: center;
+  gap: 0 65px;
+}
+
+.evo__descr-list dd{
+  text-transform: uppercase;
+}
+
+.evo-white__inner {
+  padding-top: 125px;
+  position: relative;
+}
+
+.evo-white__inner::before {
+  content: '';
+  position: absolute;
+  background-image: url(./img/dec-3.png);
+  width: 274px;
+  height: 257px;
+  top: -28px;
+  left: 360px;
+}
+
+.evo-white__inner::after {
+  content: '';
+  position: absolute;
+  background-image: url(./img/dec-4.png);
+  width: 324px;
+  height: 311px;
+  top: 129px;
+  left: 570px;
+}
+
+.evo-white__text {
+  margin-bottom: 30px;
+}
+
+.evo-white__text:first-child {
+  max-width: 285px;
+}
+
+.evo-white__text:nth-child(2) {
+  max-width: 437px;
+}
+
+.evo-white__text:nth-child(3) {
+  max-width: 590px;
+}
+
+.evo-white__video {
+  margin-top: 100px;
+  background-image: url(./img/evo-video.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 265px;
+}
+
+/* ? =================================== Section  5 ====================================== */
+
+.blog {
+  margin-bottom: 100px;
+}
+
+.blog__title {
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.blog__item-img {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.blog__item-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  min-height: 46px;
+}
+
+.blog__item-text {
+  margin-bottom: 10px;
+}
+
+.blog__item-link {
+  font-size: 12px;
+  color: #363636;
+}
+
+.blog__slider {
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.blog__button {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.swiper-button-left {
+  transform: translateX(-45px);
+}
+
+.swiper-button-right {
+  transform: translateX(8px);
+}
 
 
-  .evo-black {
-    background-color: #363636;
-    padding: 100px 0 50px;
-    color: #fff;
-  }
+.blog__quote {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
 
-  .evo-black__info {
-    display: flex;
-    justify-content: space-between;
-  }
+.blog__quote-box {
+  flex-basis: 434px;
+}
 
-  .evo-black__title {
-    text-transform: uppercase;
-    font-size: 32px;
-    font-weight: 300;
-    padding-right: 50px;
-  }
-  
-  .evo_black__infobox {
-    flex-basis: 437px;
-  }
+.blockquote {
+  margin-bottom: 30px;
+}
 
-  .evo-black__text {
-    font-size: 14px;
-    margin-bottom: 30px;
-  }
+.blockquote__name {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-style: normal;
+}
 
-  .evo-black__img {
-    display: block;
-    margin: 170px auto 60px;
-    position: relative;
-    z-index: 1;
-  }
+.blockquote__name span {
+  display: block;
+  font-size: 12px;
+  color: #9F6B08;
+  margin-bottom: 3px;
+}
 
-  .evo__descr-list {
-    display: flex;
-    justify-content: center;
-    gap: 0 65px;
-  }
-
-  .evo__descr-list dd{
-    text-transform: uppercase;
-  }
-
-
-  .evo-white__inner {
-    padding-top: 125px;
-    position: relative;
-  }
-
-  
-  .evo-white__inner::before {
-    content: '';
-    position: absolute;
-    background-image: url(./img/dec-3.png);
-    width: 274px;
-    height: 257px;
-    top: -28px;
-    left: 360px;
-  }
-
-
-  .evo-white__inner::after {
-    content: '';
-    position: absolute;
-    background-image: url(./img/dec-4.png);
-    width: 324px;
-    height: 311px;
-    top: 129px;
-    left: 570px;
-  }
-
-
-
-  .evo-white__text {
-    margin-bottom: 30px;
-  }
-
-  .evo-white__text:first-child {
-    max-width: 285px;
-  }
-
-  .evo-white__text:nth-child(2) {
-    max-width: 437px;
-  }
-
-  .evo-white__text:nth-child(3) {
-    max-width: 590px;
-  }
-  
-  .evo-white__video {
-    margin-top: 100px;
-    background-image: url(./img/evo-video.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 265px;
-  }
+.blockquote__text {
+  font-style: italic;
+  margin-top: 10px;
+}
